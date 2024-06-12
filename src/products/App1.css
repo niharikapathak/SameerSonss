@@ -1,0 +1,38 @@
+/* App1.css */
+
+/* Define background image for the content */
+.content {
+    background-image: url('../images/pigment_auxilaries.png'); /* Update the path if necessary */
+    background-size: cover;
+    background-position: center;
+   
+}
+.pg-dyes{
+    background-image: url('../images/kumkum.png'); /* Update the path if necessary */
+    background-size: cover;
+    background-position: center; 
+}
+
+.dd{
+    background-image: url('../images/polyster.png'); /* Update the path if necessary */
+    background-size: cover;
+    background-position: center; 
+    height: 89vh;
+
+}
+
+.acid{
+    background-image: url('../images/agarbati\ image.jpg'); /* Update the path if necessary */
+    background-size: cover;
+    background-position: center; 
+    height: 275vh;
+
+}
+.np{
+    background-image: url('../images/bedsheet_np.png'); /* Update the path if necessary */
+    background-size: cover;
+    background-position: center; 
+    height: 90vh;
+   
+
+}

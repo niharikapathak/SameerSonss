@@ -1,15 +1,17 @@
 import React from 'react'
 import './home.css'
 import Navbar from './Navbar'
+
 const Home = () => {
   return (
     <div className="landing-section">
     <div className="ribbon">
+    
       <h2>Sameer & Sons</h2>
     </div>
     <div className="slogan">
       <div className="since-1992">
-        <p>Since 1992</p>
+        <p>Since 1982</p>
       </div>
       <div className="colour-ur-dreams">
         <p>
@@ -33,7 +35,8 @@ const Home = () => {
       </div>
     </div>
   </div>
+  
   );
 }
 
-export default Home
+export default Home;

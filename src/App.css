@@ -36,3 +36,148 @@
     transform: rotate(360deg);
   }
 }
+/* styles.css */
+
+p.MsoNormal {
+  margin-top: 0in;
+  margin-right: 0in;
+  margin-bottom: 6.0pt;
+  margin-left: 0in;
+  line-height: 110%;
+  font-size: 10.0pt;
+  font-family: "Franklin Gothic Book", sans-serif;
+}
+
+p {
+  margin-right: 0in;
+  margin-left: 0in;
+  font-size: 12.0pt;
+  font-family: "Times New Roman", serif;
+}
+
+ul {
+  margin-bottom: 0in;
+}
+
+li.MsoNormal {
+  margin-top: 0in;
+  margin-right: 0in;
+  margin-bottom: 6.0pt;
+  margin-left: 0in;
+  line-height: 110%;
+  font-size: 10.0pt;
+  font-family: "Franklin Gothic Book", sans-serif;
+}
+
+a:link {
+  color: #0563C1;
+  text-decoration: underline;
+ 
+}
+.table-responsive {
+  overflow-x: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .table-responsive {
+    overflow-x: scroll;
+  }
+}
+
+h2 {
+  margin-top: 4.0pt;
+  margin-right: 0in;
+  margin-bottom: 0in;
+  margin-left: 0in;
+  margin-bottom: .0001pt;
+  page-break-after: avoid;
+  font-size: 14.0pt;
+  font-family: "Franklin Gothic Medium", sans-serif;
+  color: #404040;
+  font-weight: normal;
+}
+
+.style1 {
+  width: 100%;
+  height: 300px;
+}
+
+
+.style7 {
+  height: 135px;
+  text-align: center;
+}
+
+.style20 {
+  font-family: "Arial Rounded MT Bold";
+  color: #FF0000;
+  font-size: xx-large;
+}
+
+.style4 {
+  height: 135px;
+
+}
+
+.style8 {
+  height: 35px;
+  width: 70px;
+}
+
+.style9 {
+  width: 70px;
+  height: 35px;
+}
+
+.style18 {
+  height: 35px;
+  font-family: "Times New Roman", Times, serif;
+  width: 70px;
+}
+
+.style11 {
+  height: 35px;
+  width: 70px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.style19 {
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.style6 {
+  width: 346px;
+  font-family: "Times New Roman", Times, serif;
+}
+.style28
+        {
+            height: 130px;
+            text-align: center;
+        }
+        .style29
+        {
+            height: 130px;
+        }
+ .style30
+        {
+            width: 346px;
+            font-family: "Times New Roman", Times, serif;
+            font-weight: bold;
+        }
+  .style31
+        {
+            height: 35px;
+            font-family: "Times New Roman", Times, serif;
+            font-weight: bold;
+        }
+
+        .style21
+        {
+            font-size: x-large;
+            color: red;
+        }
+    
+        

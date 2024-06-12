@@ -1,6 +1,6 @@
 import React from 'react';
 import "./navbar.css";
-import { Link } from 'react-router-dom'; // Import Link component from react-router-dom
+import { NavLink } from 'react-router-dom'; // Import NavLink component from react-router-dom
 import { FaFacebookSquare, FaInstagramSquare, FaYoutubeSquare} from 'react-icons/fa';
 
 const Navbar = () => {
@@ -8,9 +8,9 @@ const Navbar = () => {
     <>
       <nav className="main-nav">
         <div className='logo'>
-            <h2>
+            <h2> 
                 <span>S</span>ameer
-                <span>N</span>
+                <span>&</span>
                 <span>S</span>ons
             </h2>
         </div>
@@ -18,23 +18,35 @@ const Navbar = () => {
         <div className='menu-link'>
             <ul>
                 <li>
-                    <Link to='/'>Home</Link> {/* Use Link component for Home */}
+                    <NavLink exact to='/' activeClassName="active-link">Home</NavLink>
                 </li>
                 <li>
-                    <Link to='/about'>About us</Link> {/* Use Link component for About */}
+                    <NavLink to='/about' activeClassName="active-link">About us</NavLink>
                 </li>
                 <li>
-                    <Link to='/contact'>Contact Us</Link> {/* Use Link component for Contact Us */}
+                    <NavLink to='/contact' activeClassName="active-link">Contact Us</NavLink>
                 </li>
                 <li>
-                    <Link to='/rnd'>R&D</Link> {/* Use Link component for R&D */}
+                    <NavLink to='/rnd' activeClassName="active-link">R&D</NavLink>
                 </li>
                 <li className="dropdown">
-                    <Link to='#'>Products</Link> {/* Use Link component for dropdown trigger */}
+                    <NavLink to='#' activeClassName="active-link">Products</NavLink> {/* Use NavLink component for dropdown trigger */}
                     <div className="dropdown-content">
-                        <Link to="/reactive-me-dyes">Reactive ME Dyes</Link> {/* Use Link component for dropdown items */}
-                        <Link to="/rgb">RGB</Link>
-                        <Link to="/product-3">Product 3</Link>
+                        <NavLink to="/products/reactive-me-dyes" activeClassName="active-link">Reactive ME Dyes</NavLink>
+                        <NavLink to="/products/rgb-rr-dyes" activeClassName="active-link">RGB</NavLink>
+                        <NavLink to="/products/reactive-he-dyes" activeClassName="active-link">Reactive HE Dyes</NavLink>
+                        <NavLink to="products/vinylsulphone-dyes" activeClassName="active-link">VinylSulphone Dyes</NavLink>
+                        <NavLink to="products/premium-dyes" activeClassName="active-link">Premium Dyes</NavLink>
+                        <NavLink to="products/direct-dyes" activeClassName="active-link">Direct Dyes</NavLink>
+                        <NavLink to="products/reactive-cold-dyes" activeClassName="active-link">Reactive Cold Dyes</NavLink>
+                        <NavLink to="products/printing-dyes" activeClassName="active-link">Printing Dyes</NavLink>
+                        <NavLink to="products/pigmentauxiliares" activeClassName="active-link">Pigment/Textile Auxiliaries</NavLink>
+                        <NavLink to="products/pigment-dyes" activeClassName="active-link">Pigment Dyes</NavLink>
+                        <NavLink to="products/disperse-dyes" activeClassName="active-link">Disperse Dyes</NavLink>
+                        <NavLink to="products/AcidBase" activeClassName="active-link">Acid Base Dyes</NavLink>
+                        <NavLink to="products/napthol-base" activeClassName="active-link">Napthol Base</NavLink>
+                       
+
                     </div>
                 </li>
             </ul>
